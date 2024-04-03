@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # Fabfile to create and distribute an archive to a web server.
+#execute: fab -f 3-deploy_web_static.py deploy -i ~/.ssh/id_rsa -u ubuntu
 import os.path
 from datetime import datetime
 from fabric.api import env
